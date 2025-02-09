@@ -109,7 +109,7 @@ console.log("5を3で割った余りは" + remainder(5, 3) + "です。");
 // 応用編-------------------------------------------------
 // Q1
 let random = Math.random();
-randomNum = Math.floor(random * 10);
+let randomNum = Math.floor(random * 10);
 console.log(randomNum);
 
 // Q2
