@@ -1,12 +1,12 @@
 // Q1
-const nickname = "なつき";
-const age = 26;
+let nickname = "なつき";
+let age = 26;
 console.log(
   "私のニックネームは" + nickname + "です。年齢は" + age + "歳です。"
 );
 
 // Q2
-const languages = ["JavaScript", "PHP", "Ruby", "Python", "Go"];
+let languages = ["JavaScript", "PHP", "Ruby", "Python", "Go"];
 console.log(
   `私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`
 );
@@ -55,7 +55,7 @@ function sayHello() {
 }
 sayHello();
 
-const sayWorld = function () {
+let sayWorld = function () {
   console.log("World");
 };
 sayWorld();
@@ -116,7 +116,7 @@ console.log(randomNum);
 function hello() {
   console.log("Hello World");
 }
-const time = 3000;
+let time = 3000;
 setTimeout(hello, time);
 
 // Q3
