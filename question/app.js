@@ -105,3 +105,45 @@ console.log(`5を3で割った余りは${remainder(5, 3)}です。`);
 // --------------------------------------------------------------
 // 関数の中で定義した変数はスコープによって関数の中でしか参照できないため。
 // ---------------------------------------------------------------
+
+// 応用編-------------------------------------------------
+// Q1
+let random = Math.random();
+randomNum = Math.floor(random * 10);
+console.log(randomNum);
+
+// Q2
+function hello() {
+  console.log("Hello World");
+}
+const time = 3000;
+setTimeout(hello, time);
+
+// Q3
+let num = 0;
+if (num > 0) {
+  console.log("num is greater than 0");
+} else if (num < 0) {
+  console.log("num is less than 0");
+} else {
+  console.log("num is 0");
+}
+
+// Q4
+let numbers = [];
+for (let i = 0; i < 100; i++) {
+  numbers.push(i);
+}
+console.log(numbers);
+
+// Q5
+let mixed = [4, "2", 5, "8", "9", 0, 1];
+for (let i = 0; i < mixed.length; i++) {
+  if (typeof mixed[i] === "string") {
+    console.log("not number");
+  } else if (mixed[i] % 2 === 0) {
+    console.log("even");
+  } else if (mixed[i] % 2 === 1) {
+    console.log("odd");
+  }
+}
