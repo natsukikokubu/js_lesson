@@ -95,7 +95,7 @@ function remainder(x, y) {
   let remaind = x % y;
   return remaind;
 }
-console.log(`5を3で割った余りは${remainder(5, 3)}です。`);
+console.log("5を3で割った余りは" + remainder(5, 3) + "です。");
 
 // Q10
 // function foo() {
